@@ -49,7 +49,7 @@ function StartHerePage() {
     console.log("Email:", email);
 
     // Optionally, add your logic for sending data to a backend or displaying a confirmation
-    alert("Welcome! ${firstName}, we will send new recipes to your Email");
+    alert(`Welcome! ${firstName}, we will send new recipes to your Email`);
 
     // Reset form after submission
     setFirstName("");
